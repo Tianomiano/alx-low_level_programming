@@ -6,11 +6,10 @@
 *Return: 0
 */
 
-inta main(void)
+int main(void)
 {
 	int i;
 
-	i = 0;
 	for (i < 10; i++)
 	{
 		printf("%d", i);
