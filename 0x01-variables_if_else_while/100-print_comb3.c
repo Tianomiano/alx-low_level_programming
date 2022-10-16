@@ -16,7 +16,7 @@ int main(void)
 		{
 			if (i != j)
 			{
-				putchar('i+j');
+				putchar('i' + 'j');
 			}
 			if (i != 57 && j != 57)
 			{
