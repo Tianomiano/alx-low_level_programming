@@ -18,9 +18,9 @@ int main(void)
 			{
 				if (i != j && i != k && j != k)
 				{
-					putchar(i + '48');
-					putchar(j + '48');
-					putchar(k + '48');
+					putchar(i + 48);
+					putchar(j + 48);
+					putchar(k + 48);
 					if (i + j + k < 24)
 					{
 						putchar(',');
