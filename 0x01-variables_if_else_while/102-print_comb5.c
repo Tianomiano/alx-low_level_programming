@@ -10,19 +10,19 @@ int main(void)
 {
 	int i, j, k, l;
 
-	i = 48
+	i = 48;
+	j = i + 1;
+	k = 48;
+	l = k + 1;
 	while (i < 58; i++)
 	{
-		j = i + 1
 		while (j < 58; j++)
 		{
 			putchar(i);
 			putchar(j);
 			putchar(' ');
-			k = 48
 			while (k < 58 && k != i; k++)
 			{
-				l = k + 1
 				while (l < 58 && l != j)
 				{
 					putchar(k);
