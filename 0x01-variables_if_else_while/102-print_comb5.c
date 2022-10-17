@@ -23,7 +23,7 @@ int main(void)
 			putchar(' ');
 			while (k < 58 && k != i; k++)
 			{
-				while (l < 58 && l != j)
+				while (l < 58 && l != j; l++)
 				{
 					putchar(k);
 					putchar(l);
