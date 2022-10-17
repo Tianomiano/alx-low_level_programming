@@ -18,10 +18,10 @@ int main(void)
 			{
 				if (i != j && i != k && j != k)
 				{
-					putchar("i + $d", 0);
-					putchar("j + $d", 0);
-					putchar("k + $d", 0);
-					if ("i + j + k < 24")
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i <56 && j <57 && k < 58)
 					{
 						putchar(',');
 						putchar(' ');
