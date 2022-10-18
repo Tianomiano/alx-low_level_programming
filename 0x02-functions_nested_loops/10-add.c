@@ -9,9 +9,5 @@
 
 int add(int n, int m)
 {
-	int result;
-
-	_putchar(result = (n + m));
-	_putchar('\n');
-	return (result);
+	return (n + m);
 }
