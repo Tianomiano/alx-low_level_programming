@@ -14,10 +14,8 @@ int main(void)
 
 	for (i = 0; i < 98; i++)
 	{
-		printf("j");
-		printf("k");
 		l = j + k;
-		printf("%lu", l);
+		printf("1, 2, %lu", l);
 		j = k;
 		k = l;
 		if (i == 97)
