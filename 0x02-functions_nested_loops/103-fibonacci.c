@@ -18,7 +18,7 @@ int main(void)
 		if (l > 4000000)
 			break;
 		if ((l % 2) == 0)
-			i += l
+			i += l;
 		j = k;
 		k = l;
 	}
