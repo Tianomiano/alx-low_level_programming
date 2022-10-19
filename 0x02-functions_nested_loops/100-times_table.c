@@ -12,7 +12,7 @@ void print_times_table(int n)
 	int b;
 	int c;
 
-	for (n = 0; n <= 15; n++)
+	for (n >= 0; n <= 15; n++)
 	{
 		for (a = 0; a <= n; a++)
 		{
@@ -33,7 +33,7 @@ void print_times_table(int n)
 				if (c >= 100)
 				{
 					_putchar((c / 100) + '0');
-					_putchar((c % 100) + '0');
+					_putchar(((c / 10)) % 10 + '0');
 				}
 				else if (c <= 99 && c >= 10)
 				{
