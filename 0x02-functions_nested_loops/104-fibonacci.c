@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0; i < 98; i++)
 	{
 		l = j + k;
-		printf("1, 2, %lu", l);
+		printf("%lu", l);
 		j = k;
 		k = l;
 		if (i == 97)
