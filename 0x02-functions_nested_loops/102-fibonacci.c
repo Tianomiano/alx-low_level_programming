@@ -12,7 +12,7 @@ int main(void)
 	unsigned long k = 1;
 	unsigned long l;
 
-	for (i = 0; i < 50)
+	for (i = 0; i < 50; i++)
 	{
 		l = j + k;
 		printf("%lu", l);
