@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 
-	for (i  = 1; i <= 100)
+	for (i  = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 		{
@@ -32,7 +32,6 @@ int main(void)
 		{
 			printf(" ");
 		}
-		i++;
 	}
 	printf("\n");
 	return (0);
