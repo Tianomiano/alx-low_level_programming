@@ -3,7 +3,7 @@
 /**
 *print_diagonal - prints diagonal lines
 *@n: is the number of times the character \ should be printed
-*Return: 0
+*Return: void
 */
 
 void print_diagonal(int n)
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 	{
 		for (j = 0; j < i; j++)
 		{
-			_putchar(' ')
+			_putchar(' ');
 		}
 		_putchar('\\');
 		_putchar('\n');
