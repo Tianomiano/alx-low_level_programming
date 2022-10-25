@@ -3,10 +3,17 @@
 /**
 *_strlen - prints length of a string
 *@s: Pointer
-*Return: 0
+*Return: Length
 */
 
 int _strlen(char *s)
 {
-	strlen(*s);
+	int i = 0;
+
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }
