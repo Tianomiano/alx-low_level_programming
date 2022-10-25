@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 *print_array - prints an array
 *@a: array
@@ -17,6 +18,6 @@ void print_array(int *a, int n)
 		{
 			printf(", ");
 		}
-	printf("\n");
 	}
+	printf("\n");
 }
