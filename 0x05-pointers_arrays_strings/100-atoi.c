@@ -28,6 +28,6 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	l *= k
+	l *= k;
 	return (l);
 }
