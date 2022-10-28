@@ -2,22 +2,22 @@
 
 /**
 **string_toupper - lower to upper
-*@c: pointer
+*@n: pointer
 **Return: char
 */
 
-char *string_toupper(char *c)
+char *string_toupper(char *n)
 {
 	int i;
 
 	i = 0;
-	while (c[i] != '\0')
+	while (n[i] != '\0')
 	{
-		if (c[i] >= 'a' && c[i] <= 'z')
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			c[i] = c[i] - 32;
+			n[i] = n[i] - 32;
 		i++;
 		}
 	}
-	return (c);
+	return (n);
 }
