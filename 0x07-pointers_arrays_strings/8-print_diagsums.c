@@ -15,13 +15,13 @@ void print_diagsums(int *a, int size)
 
 	for (in = 0; in < size; in++)
 	{
-		sum1 += a[size];
+		sum1 += a[in];
 		a += size;
 	}
 	a -= size;
 	for (in = 0; in < size; in++)
 	{
-		sum += a[size];
+		sum += a[in];
 		a -= size;
 	}
 	printf("%d, %d\n", sum1, sum2);
