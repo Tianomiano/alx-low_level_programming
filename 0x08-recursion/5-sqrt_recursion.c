@@ -19,7 +19,7 @@ int sqrroot(int i, int j)
 	}
 	else
 	{
-		return (sqrroot(i + 1, b));
+		return (sqrroot(i + 1, j));
 	}
 }
 
