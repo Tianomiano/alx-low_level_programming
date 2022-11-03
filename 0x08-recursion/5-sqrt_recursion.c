@@ -1,20 +1,14 @@
 #include "main.h"
 
 /**
-*_sqrt_recursion - squareroot
-*@n: number
+*sqrroot - checks for root
+*@i: int
+*@j: int
 *Return: int
 */
 
-int _sqrt_recursion(int n)
+int sqrroot(int i, int j)
 {
-	int i;
-	int j;
-
-	if (n == 0)
-	{
-		return (0);
-	}
 	if (i * i == j)
 	{
 		return (i);
@@ -25,7 +19,24 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_sqrt_recursion(i + 1, b));
+		return (sqrroot(i + 1, b));
 	}
-	return (_sqrt_recursion(1, n));
+}
+
+/**
+*_sqrt_recursion - squareroot
+*@n: number
+*Return: int
+*/
+
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (sqrroot(1, n));
+	}
 }
