@@ -8,7 +8,7 @@
 
 int len(char *s)
 {
-	if (len[0] != '\0')
+	if (s[0] != '\0')
 	{
 		return (1 + len(s + 1));
 	}
