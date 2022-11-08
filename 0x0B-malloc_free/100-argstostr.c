@@ -28,7 +28,7 @@ char *argstostr(int ac, char **av)
 	str = (char *)malloc(sizeof(char) * (leng + 1));
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; j = 0; i < ac && j < leng; i++)
+	for (i = 0, j = 0; i < ac && j < leng; i++)
 	{
 		s = av[i];
 		k = 0;
