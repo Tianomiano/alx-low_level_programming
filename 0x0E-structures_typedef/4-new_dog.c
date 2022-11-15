@@ -1,5 +1,5 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
 *new_dog - new dog
@@ -24,8 +24,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	i++;
 	dog->name = malloc(i * sizeof(char));
 	if (dog->name == NULL)
+	{
 		free(dog);
 		return (NULL);
+	}
 	for (k = 0; k < i; k++)
 		dog->name[k] = name[k];
 	dog->age = age;
